@@ -36,30 +36,30 @@
 
 ## 🗺️ Roadmap and Navigation guide
 
-The whole project is divided into the six phases, Where in each phase we are dealing with one ascept of the data analysis. As far as the navigation is consorn it's mutch more easy as the process is carried out in phases. for example if we just want we see the analysis then we can directly move to the <b>Process</b> section or if we just what to see the insides then we go ahead and see the <b>Share</b> section of the phase.
-In the real-world depending upon the organization the data analysis phases defination may subjected to chage. the the core model is always same. and each phace more or less is representative of that abstract model. So, in this project we try to replicate this real-world abstract process. The main advantage of adopting this model is that the process looks more clear and we have more focus towards goals rether than just chucking the numbers.
-<br>
+<hr>
 
-<b>The following bits are clearly explain this abstract process.</b>
-<br>
+### Step 1: Data Collection
+Collect the historical stock prices of Yes Bank from January 2005 to September 2020. Include variables such as opening price, highest price, lowest price, and closing price and date
 
-<li><b>Getting and Initial inspection of data</b>.</li>
---> getting data to answer the question and initial inspection of dataset
+<hr>
 
-<li><b>Cleaning the data</b>.</li>
---> Handling all the anomolies in the dataset so that it's ready for analysis
+### Step 2: Data Cleaning and Preprocessing
+Clean the dataset by removing any missing values, outliers, or errors. Preprocess the dataset by scaling or normalizing the features as necessary.
 
-<li><b>Analyzing the data</b>.</li>
---> Analyze the data to find hidden pattern
+<hr>
 
-<li><b>Building various machine learning model</b>.</li>
---> Buliding various regression moddel to assess its prediction capabilities.
+### Step 3: Regression Model Building
+Divide the dataset into training and testing sets. Implement Multiple Linear Regression and Support Vector Regression (SVR) models to predict the closing price of Yes Bank stock. Tune the models by adjusting the hyperparameters to optimize performance.
 
-<li><b>Analyzing the performance and selecting final model</b>.</li>
---> Final modle selecion via performance matrics and cv scores.
+<hr>
 
-<li><b>Deployment of final model</b>.</li>
---> Put the model in to the real world to fullfill business requirments.
+### Step 4: Model Evaluation
+Evaluate the models' performance using root mean squared error (RMSE) and mean absolute error (MAE) metrics. Compare the performance of the models to determine which one performs better.
+
+<hr>
+
+### Step 5: Results and Conclusion
+Present the results of the regression analysis. Discuss the implications of the results and their potential impact on investors. Provide conclusions and suggestions for future research.
 
 ![--------------------------------------------------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/grass.png)
 
@@ -80,6 +80,14 @@ In the real-world depending upon the organization the data analysis phases defin
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 
 ![GoogleColab](https://img.shields.io/badge/GoogleColab-orange?style=for-the-badge&logo=GoogleColab)
+
+![--------------------------------------------------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/grass.png)
+
+## :scroll: Conclusion
+
+After implementing six regression model and analyzing theri respective performance matrics we came to the conclusion that the <b>"Optimal_RandomRegression"</b> and
+<b>XGBRegressor</b> are top performing models with respect to all the matrics. But when we look for the cross validation score and other factores such as time complexity, we select the <b>Optimal_RandomForest</b> as a final deployment model.
+
 
 ![--------------------------------------------------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/grass.png)
 
