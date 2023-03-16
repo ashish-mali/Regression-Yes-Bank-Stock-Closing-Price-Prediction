@@ -27,10 +27,10 @@
   <li><b>data_YesBank_StockPrices.csv</b> - It contains monthly observation of stock parameter such as open, high , low and close.</li>
 
 ### Executable Files:
-- [Regression Analysis On Stock Closing Price Prediction](https://github.com/ashish-mali/EDA-On-Playstore-App-Reviews/blob/main/Play_Store_App_Review_Analysis_Capstone_Project.ipynb) - Includes all functions required for bulding and deploying the model
+- [Regression Analysis On Stock Closing Price Prediction](Yes_Bank_Stock_Closing_Price_Prediction_Capstone_Project.ipynb) - Includes all functions required for bulding and deploying the model
 
 ### Output:
-- [Google Colab](https://github.com/ashish-mali/EDA-On-Playstore-App-Reviews/blob/main/Play_Store_App_Review_Analysis_Capstone_Project.ipynb) - All the outputs are visible in the provided colab notebook.
+- [Google Colab](Yes_Bank_Stock_Closing_Price_Prediction_Capstone_Project.ipynb) - All the outputs are visible in the provided colab notebook.
 
 ![--------------------------------------------------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/grass.png)
 
